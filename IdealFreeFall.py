@@ -29,3 +29,10 @@ plt.xlabel('Time(s)')
 plt.ylabel('Velocity(m/s)')
 plt.show()
 
+#ACCELERATION TIME GRAPH OF A PARTICLE UNDER FREE FALL
+a = np.full_like(t, g)
+plt.plot(t, a)
+plt.title('Acceleration vs Time')
+plt.xlabel('Time(s)')
+plt.ylabel('Acceleration(m/s^2)')
+plt.show()
